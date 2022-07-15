@@ -453,7 +453,8 @@ img {
   color: var(--primary-white-color);
   margin-bottom: 20px;
 }
-.footer .page-logo:hover {
+.footer .page-logo:hover,
+.footer .page-logo:focus {
   color: var(--accent-color);
 }
 
@@ -651,7 +652,7 @@ img {
 }
 
 .socials-link:hover .social-icon,
-.socials-link:focus {
+.socials-link:focus .social-icon {
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
 }
