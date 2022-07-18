@@ -226,6 +226,7 @@ body {
 }
 
 .container.div h3 {
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -460,6 +461,7 @@ img {
 
 .container-footer {
   display: flex;
+  /* щоб вирівняти весь контент за однією лінією */
   align-items: baseline;
 
   width: 1200px;
